@@ -18,8 +18,17 @@ ul.untstyled {
 .modal-body {
     color: black;
 }
+img.email {
+    mix-blend-mode: multiply;
+}
+img.phone{    
+    mix-blend-mode: multiply;
+}
 section#skills-section {
     width: max-content;
+}
+b.Contact {
+    color: orangered;
 }
 h4.display-4 {
     text-align: center;
@@ -67,11 +76,12 @@ h3.education {
 img.css {
     height: 150px;
     width: 150px;
+    mix-blend-mode: multiply;
 }
 img.html {
     height: 150px;
     width: 150px;
-}  
+    mix-blend-mode: multiply;}  
 h3.activities {
     text-align: center;
 }
@@ -102,10 +112,12 @@ img.Resume-pic {
     width: 50%;
 } 
 .a {
-    color: white;
+    color: orangered;
     text-decoration: none;
 }
-   
+b.Contact {
+    color: orangered;
+} 
 ul.list {
     list-style-type: none;
     line-height: 1.4;
@@ -122,7 +134,7 @@ ul.list li:first-child {
     color: white;
         }
 a {
-    color: white;
+    color: orangered;
     text-decoration: none; 
 }
 .section#Interests-section{
@@ -170,13 +182,23 @@ body{
 }
    .mobile-pic{
     display: block;
+       mix-blend-mode: color-burn;
 }
-    .tablet-pic{
+b.Contact {
+    color: orangered;
+}
+img.email {
+    mix-blend-mode: multiply;
+}
+img.phone{    
+    mix-blend-mode: multiply;
+}
+
+.tablet-pic{
         display: none;
 }
-    .Resume-pic{
+.Resume-pic{
         display: none;
-}
 }
 .snowflake {
   color: #fff;
@@ -246,7 +268,7 @@ img.Resume-pic {
     width: 50%;
 } 
 .a {
-    color: white;
+    color: orangered;
     text-decoration: none;
 }
    
@@ -266,7 +288,7 @@ ul.list li:first-child {
     color: white;
         }
 a {
-    color: white;
+    color: orangered;   
     text-decoration: none; 
 }
 .section#Interests-section{
@@ -316,6 +338,15 @@ body{
 .mobile-pic{
         display: none;
 }
+b.Contact {
+    color: orangered;
+}
+img.email {
+    mix-blend-mode: multiply;
+}
+img.phone{    
+    mix-blend-mode: multiply;
+}
     .tablet-pic{
         display: block;
 }
@@ -389,7 +420,7 @@ img.Resume-pic {
     width: 50%;
 } 
 .a {
-    color: white;
+    color: orangered;
     text-decoration: none;
 }
    
@@ -409,7 +440,7 @@ ul.list li:first-child {
     color: white;
         }
 a {
-    color: white;
+    color: orangered;
     text-decoration: none; 
 }
 .section#Interests-section{
@@ -446,14 +477,23 @@ ol {
 .content{
     display: block;
 }
-    @media (max-width:1024px) and (min-width:768px) {
+@media (max-width:1024px) and (min-width:768px) {
         .mobile-pic{
-        display: none;
+        display: none;           
 }
-    .tablet-pic{
-        display: none;
+b.Contact {
+    color: orangered;
 }
-    .Resume-pic{
-        display: block;
+img.email {
+    mix-blend-mode: multiply;
+}
+img.phone{    
+    mix-blend-mode: multiply;
+}
+.tablet-pic{
+    display: none;
+}
+.Resume-pic{
+    display: block;
 }
 }
